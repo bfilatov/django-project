@@ -9,8 +9,8 @@ pipeline {
 			chmod +x update.sh; sudo service django-project stop; ./update.sh; \
 			sudo service django-project start"
 		'''            
-               }
-            }
         }
+      }
     }
+  }
 }
